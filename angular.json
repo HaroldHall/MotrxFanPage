@@ -28,9 +28,18 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss", 
+              "src/assets/Scss/main.scss", 
+              "src/assets/Css/linearicons.css"
             ],
-            "scripts": []
+            "scripts": [  
+              "node_modules/jquery/dist/jquery.js", 
+              "src/assets/Js/custom.js", 
+              "src/assets/Js/main.js",
+              "src/assets/Js/jquery.nav.js", 
+              "src/assets/Js/superfish.min.js",   
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+            ]
           },
           "configurations": {
             "production": {
